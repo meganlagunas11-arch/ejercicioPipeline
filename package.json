@@ -1,0 +1,15 @@
+{
+  "name": "fasteat",
+  "version": "1.0.0",
+  "scripts": {
+    "lint": "eslint coupon.js",
+    "test:e2e": "node --test coupon.js"
+  },
+  "eslintConfig": {
+    "env": { "node": true, "es2021": true },
+    "extends": "eslint:recommended"
+  },
+  "devDependencies": {
+    "eslint": "^8.57.0"
+  }
+}
